@@ -9,16 +9,17 @@ export const connectToDB = async () => {
     }
 
     try {
-        await mongoose.connect(process.env.MONGODB_URI, {
-            dbName: 'share_prompt',
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
+        const uri = process.env.MONGODB_URI || 'mongodb+srv://dbabhishek:dbabhishek@cluster0.ugqdjfw.mongodb.net/'; // Fallback URI
+        await mongoose.connect(uri, {
+            dbName:'share_prompt',
+            useNewUrlParser:true,
+            useUnifiedTopology:true,
         });
 
         isConnected = true;
         console.log("MongoDB connected");
     } catch (error) {
         console.error("MongoDB connection error:", error);
-        throw error; // You can choose to handle or propagate the error as needed
+        throw error;
     }
 };
