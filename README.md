@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Tech Stack
 
-## Getting Started
+Next.js
+MongoDB
+NextAuth
+TailwindCSS
+Features
 
-First, run the development server:
+### Features
+1.Modern Design with Glassmorphism Trend Style: Implement a visually appealing design with the glassmorphism trend for a modern look.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2.Discover and Share AI Prompts: Allow users to find AI prompts shared by the community and create their own to share.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3.Edit and Delete Created Prompts: Provide users the capability to edit their prompts anytime and delete them as necessary.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4.Page: Offer each user a dedicated profile page showcasing their created prompts, providing an overview of their contributions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5.View Other People's Profiles: Enable users to explore other creators' profiles to see the prompts they've shared, fostering community engagement.
 
-## Learn More
+6.Copy to Clipboard: Implement a convenient "Copy to Clipboard" feature for users to easily copy AI prompts.
 
-To learn more about Next.js, take a look at the following resources:
+7.Search Prompts by Specific Tag: Allow users to search for prompts based on specific tags, improving accessibility to prompts on specific topics.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+8.Google Authentication using NextAuth: Enable secure Google authentication through NextAuth for a streamlined and trustworthy login experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+9.Responsive Website: Develop a fully responsive website to ensure optimal user experience across various devices.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And many more, including considerations for code architecture and reusability.
