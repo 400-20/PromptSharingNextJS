@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Tech Stack
 
 Next.js
@@ -26,3 +27,7 @@ Features
 9.Responsive Website: Develop a fully responsive website to ensure optimal user experience across various devices.
 
 And many more, including considerations for code architecture and reusability.
+=======
+# PromptSharingNextJS
+Promptopia : A collaborative platform built with Next.js, MongoDB, and NextAuth, offering a modern glassmorphism-inspired design. Discover, share, and edit AI prompts, browse user profiles, and enjoy a seamless Google authentication experience. Responsive and community-driven, fostering creativity and engagement.
+>>>>>>> origin/main
