@@ -5,7 +5,6 @@ Next.js
 MongoDB
 NextAuth
 TailwindCSS
-Features
 
 ### Features
 1.Modern Design with Glassmorphism Trend Style: Implement a visually appealing design with the glassmorphism trend for a modern look.
